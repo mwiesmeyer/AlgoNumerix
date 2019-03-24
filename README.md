@@ -14,6 +14,13 @@ The NumericTextBox adds these properties to the WPF TextBox:
 * Required
 * IsValid
 
+Added events:
+
+* InvalidEntry
+* ValidEntry
+* BlankEntry
+* ReturnEntry?
+
 ### RestrictedTextBox
 The RestrictedTextBox adds these properties to the WPF TextBox:
 
@@ -24,8 +31,27 @@ The RestrictedTextBox adds these properties to the WPF TextBox:
 * Required
 * IsValid
        
+Added events:
+
+* InvalidEntry
+* ValidEntry
+* BlankEntry
+* ReturnEntry?
+        
 ### ColorBar
-The 
+The ColorBar adds these properties to the WPF Label:
+
+* ColorMap
+* Count
+* Orientation
+* Start
+
+Added events:
+
+* ColorSelectionEvent
+* ColorDeselectionEvent
 
 ## Licensing
-The licensing library is a simple yet powerful way for you to provide controlled access to your desktop applications.
+The licensing library is a simple yet powerful way for you to provide controlled access to your desktop applications.  
+
+## License Manager
